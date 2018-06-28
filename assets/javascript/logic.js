@@ -46,7 +46,7 @@ database.ref().on("child_added", function (snapshot) {
     displayDiv.append(emailDisplay);
 
     var nameDisplay = $("<p></p>");
-    nameDisplay.text("Name " + snap.custName);
+    nameDisplay.text("Name: " + snap.custName);
     displayDiv.append(nameDisplay);
 
     var subjectDisplay = $("<p></p>");
