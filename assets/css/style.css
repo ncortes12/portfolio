@@ -24,6 +24,9 @@ body {background-image: url(../images/intersection.png);
 .resume{
     margin-top: 125px;
 }
+.skills-text{
+    font-size:12px;
+}
 
 .icon{
     position: absolute;
